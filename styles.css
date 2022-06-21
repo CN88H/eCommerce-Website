@@ -10,3 +10,30 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+.home section {
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0.5rem;
+}
+
+nav div {
+ 
+    
+}
+
+.product section div {
+    border: 1rem solid black;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px black;
+    padding: 2rem;
+    display: webkit-box;
+    display: flex;
+}
