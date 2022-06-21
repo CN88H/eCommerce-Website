@@ -20,24 +20,32 @@ header p {
     margin-top: 00.5rem;
 }
 
-nav img {
-    height: 15px;
-    width: 15px;
+.top_logo {
+    font-size: 20px;
+}
+
+.top_logo img {
+    height: 20px;
+    width: 20px;
 }
 nav button {
     text-align: right;
 }
 
-.home {
+#home {
     background-image: url("assests/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
     border: 0rem;
     display: inherit;
 
 }
 
-section h1 {
-    text-decoration-color: white;
+.white {
+    color: white;
 }
+
+/* .right {
+    float: right;
+} */
 
 section img {
     height: 100px;
