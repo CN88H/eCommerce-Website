@@ -69,6 +69,27 @@ nav li {
 }
 
 
+/* ABOUT US AREA */
+
+.fill_img1 {
+    height: 355px;
+    width: 265px;
+    float: right;
+    transform: rotateY(180deg);
+}
+
+.fill_img2 {
+    height: 240px;
+    width: 175px;
+}
+
+.left_text {
+    float: left;
+}
+
+.mid {
+    float: left;
+}
 
 /* PRODUCT area */
 
@@ -94,6 +115,19 @@ section img {
     border-color: #bf7631;
 }
 
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+
+}
+
 .object_name {
-    
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.obj_img {
+    height: 175px;
+    width: 175px;
 }
