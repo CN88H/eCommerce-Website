@@ -11,6 +11,10 @@ html {
     font-size: 62.5%;
 }
 
+
+
+/* HEADER area */
+
 header div {
     text-align: center;
 }
@@ -32,25 +36,7 @@ nav button {
     text-align: right;
 }
 
-#home {
-    background-image: url("assests/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
-    border: 0rem;
-    display: inherit;
 
-}
-
-.white {
-    color: white;
-}
-
-/* .right {
-    float: right;
-} */
-
-section img {
-    height: 100px;
-    width: 100px;
-}
 nav ul {
     list-style-type: none;
 }
@@ -60,9 +46,35 @@ nav li {
     margin: 0.5rem;
 }
 
-nav div {
- 
+
+
+/* MAIN area */
+
+.topic {
+    font-size: 25px;
+    text-decoration: underline;
     
+}
+
+
+#home {
+    background-color: black;
+    border: 0rem;
+    display: inherit;
+
+}
+
+.white {
+    color: white;
+}
+
+
+
+/* PRODUCT area */
+
+section img {
+    height: 100px;
+    width: 100px;
 }
 
 .product section div {
@@ -74,4 +86,14 @@ nav div {
     padding: 2rem;
     display: webkit-box;
     display: flex;
+}
+
+.add_to_cart {
+    background-color: #bf7631;
+    color: white;
+    border-color: #bf7631;
+}
+
+.object_name {
+    
 }
